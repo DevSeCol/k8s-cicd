@@ -1,6 +1,6 @@
 resource "google_container_cluster" "primary-cluster" {
   name                     = "test-ricardo"
-  location                 = "${var.region}-a"
+  location                 = var.region
   remove_default_node_pool = true
   initial_node_count       = 1
   #network                  = var.cluster_network
