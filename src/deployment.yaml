@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: test-deploy
   labels:
-    app: nginx
+    app: web-deploy
 spec:
   replicas: 3
   selector:
