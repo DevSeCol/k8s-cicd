@@ -92,7 +92,7 @@ jobs:
         GOOGLE_APPLICATION_CREDENTIALS: "./TF_SERVICE_ACCOUNT.json"
 
     # Terraform apply
-    - name: Terraform Apply
-      run: terraform apply -auto-approve
-      env:
-        GOOGLE_APPLICATION_CREDENTIALS: "./TF_SERVICE_ACCOUNT.json"
+    #- name: Terraform Apply
+    #  run: terraform apply -auto-approve
+    #  env:
+    #    GOOGLE_APPLICATION_CREDENTIALS: "./TF_SERVICE_ACCOUNT.json"
