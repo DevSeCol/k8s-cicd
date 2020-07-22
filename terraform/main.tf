@@ -15,7 +15,7 @@ resource "google_container_node_pool" "primary-pool" {
 
   node_config {
     preemptible  = true
-    machine_type = "n1-standard-1"
+    machine_type = "g1-small"
 
     #service_account = var.service_account
 
