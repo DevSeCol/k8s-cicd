@@ -25,7 +25,7 @@ env:
   GKE_PROJECT: ${{ secrets.PROJECT_ID }}
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: australia-southeast1
-  GKE_CLUSTER: devsecol-cluster
+  GKE_CLUSTER: devsecol-helm
   IMAGE: ricardo-gke-test
   REGISTRY_HOSTNAME: gcr.io
   DEPLOYMENT_NAME: ricardo-gke-test
